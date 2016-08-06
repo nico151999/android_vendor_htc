@@ -386,6 +386,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/htc/pme/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/htc/pme/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/htc/pme/proprietary/bin/pnpmgr:system/bin/pnpmgr \
+    vendor/htc/pme/proprietary/etc/pnp.cfg:system/etc/pnp.cfg \
     vendor/htc/pme/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/htc/pme/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/htc/pme/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
@@ -429,11 +431,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/htc/pme/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/htc/pme/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/htc/pme/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/htc/pme/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/htc/pme/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/htc/pme/proprietary/bin/radish:system/bin/radish \
     vendor/htc/pme/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/htc/pme/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/htc/pme/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/htc/pme/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
+    vendor/htc/pme/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/htc/pme/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/pme/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/htc/pme/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
